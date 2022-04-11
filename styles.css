@@ -1,12 +1,13 @@
 .header-container{
     background-color: #1F2937;
-    height: 440px;
+    height: 420px;
 }
 
 .nav {
     display: flex;
-    height: 40px;
+    height: 50px;
     align-content: space-between;
+    background-color: #3882F6;
 
 }
 .second-header{
@@ -22,20 +23,26 @@
 
 .middle-container {
     background-color: white;
+    height: 300px;
 }
 .quote-container {
     background-color: #e5e7eb;
+    height: 250px;
 }
 
 
 .lower-container {
     background-color: solid white;
-    display: flex;
-    height: 150px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer{
     background-color: #1f2937;
     display: flex;
+    justify-content: center;
+    color: white;
 
 }
 
@@ -43,6 +50,7 @@
     display: flex;
     margin-left: 20px;
     color: white;
+    transform: translate(0%, -50%);
     
 }
 
@@ -52,27 +60,34 @@
     padding: 20px;
     padding-left: 70px;
     margin-left: 60px;
+    display: flex;
     
     
 }
+
 .second-header>:first-child{
     text-align: center;
     font-size: xx-large;
     padding-top: 40px;
-    color: white
+    color: white;
+    height: 50px;
+    background-color: #1f2937;
+    
 }
 .second-header>:nth-child(2){
     padding-top: 0px;
     color: white;
-    flex:1;
+    flex: 1;
+    height: 80px;
+    
     
 }
 .second-header>:nth-child(3){
-    padding-top: 0px;
-    background-color: #3882F6;
+    padding-top: 10px;
     transform: translate(30%);
-    text-align: center;
-    color: white
+    color: white;
+    border-radius: 30px;
+    
     
 }
 
@@ -93,26 +108,86 @@ li a {
 
 
 .header-image {
-    
+    border-radius: 5px;
     height: 200px;
     width: 200px;
-    transform: translate(220%, -60%);
+    transform: translate(220%, -80%);
+    
+    
 }
 
 .mid-section {
     
     display: flex;
-    height: 200px;
+    height: 170px;
     justify-content: center;
+    align-content: center;
+    padding: 20px;
     
 }
 
 .quote-box {
-    
-    display: flex;
+    align-content: center;
+    flex-direction: column;
     height: 200px;
+    font-size: larger;
+    display: flex;
+    padding: 30px;
+    text-align: center;
 }
 
 .sub-header {
+    text-align: center;
+}
+
+.middle-images {
+    
+    padding: 30px;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.middle-images>:first-child{
+    border:solid #d86f97;
+    height: 140px;
+    width: 140px;
+    border-radius: 5px;
+    
+}
+
+.signup-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 50px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: #3882F6;
+    
+}
+.signup-box>:first-child{
+    text-align: center;
+    padding-top: 20px;
+    height: 80px;
+    min-width: 400px;
+    color: white;
+    font-size: larger;
+
+}
+.signup-box>:nth-child(2){
+    background-color: #3882F6;
+    border: 2px solid white;
+    margin-right: 20px;
+    border-radius:5px;
+    padding: 5px;
+    color: white;
+    font-size: larger;
+}
+.copyright {
     text-align: center;
 }
